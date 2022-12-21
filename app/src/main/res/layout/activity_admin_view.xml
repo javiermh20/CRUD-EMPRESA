@@ -23,7 +23,7 @@
         android:id="@+id/matriculaATxt"
         android:layout_width="300dp"
         android:layout_height="72dp"
-        android:text="Matricula"
+        android:text="Matrícula"
         android:textAlignment="center"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"

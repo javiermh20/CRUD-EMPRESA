@@ -1,5 +1,6 @@
 package com.javiermejia.empleoapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -16,14 +17,19 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "Todo correcto", Toast.LENGTH_SHORT).show()
             }
         }
+
+        registrarBtn.setOnClickListener{
+            val intent = Intent(this@MainActivity, registerView::class.java)
+            startActivity(intent)
+        }
     }
 
     fun validarCamposVacios(): Boolean {
         if(userTxt.text.isEmpty()){
-            userTxt.error = "Debes escribir un nombre de usuario"
+            userTxt.error = "Debes escribir tu nombre de Usuario"
             return false
         } else if(passwordTxt.text.isEmpty()){
-            passwordTxt.error = "Debes escribir tu constraseña"
+            passwordTxt.error = "Debes escribir tu Constraseña"
             return false
         } else {
             return true

@@ -92,6 +92,7 @@ class AdminDataSource(context:Context) {
                 "insert into " + ADMINISTRADORES_TABLE_NAME + " values " +
                         "('SKMDKAS','javierm','1234','Javier','Mejia','Hernandez','Hombre','30-05-2002')," +
                         "('NDSSFSF','rayozk','1234','Jose','Rangel','Mora','Hombre','19-07-2002')," +
-                        "('SKMDKAS','pancri','1234','Pancracio','Sanchez','Diaz','Hombre','15-06-2002')")
+                        "('SKMDKAS','pancri','1234','Pancracio','Sanchez','Diaz','Hombre','15-06-2002')"
+                )
     }
 }

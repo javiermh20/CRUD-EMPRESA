@@ -77,18 +77,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.384" />
 
-    <EditText
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/fechaRegTxt"
         android:layout_width="300dp"
-        android:layout_height="wrap_content"
         android:ems="10"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:hint="Fecha de nacimiento"
         android:inputType="date"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.667" />
+        app:layout_constraintVertical_bias="0.667"/>
 
     <RadioGroup
         android:id="@+id/generoRegGroup"
@@ -133,19 +135,19 @@
         android:text="Guardar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.203"
+        app:layout_constraintHorizontal_bias="0.157"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.865" />
 
     <Button
-        android:id="@+id/eliminarRegBtn"
+        android:id="@+id/cancelarRegBtn"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:text="Cancelar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.823"
+        app:layout_constraintHorizontal_bias="0.881"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.865" />
