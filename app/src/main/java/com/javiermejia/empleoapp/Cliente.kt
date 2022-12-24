@@ -1,6 +1,6 @@
-package Entidades
+package com.javiermejia.empleoapp
 
-class Administrador(Matricula:String, User:String,Password:String,Nombre: String,ApellidoP:String,ApellidoM:String,Genero:String,FechaN:String) {
+class Cliente(Matricula:String, User:String,Password:String,Nombre: String,ApellidoP:String,ApellidoM:String,Genero:String,FechaN:String) {
     var matricula = Matricula
     var user = User
     var password = Password

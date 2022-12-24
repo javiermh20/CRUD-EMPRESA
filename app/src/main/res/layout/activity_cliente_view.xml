@@ -9,14 +9,14 @@
 
     <ImageView
         android:id="@+id/imgUserC"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="204dp"
+        android:layout_height="199dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.082"
+        app:layout_constraintVertical_bias="0.03"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
@@ -35,8 +35,8 @@
 
     <TextView
         android:id="@+id/descripcionCTxt"
-        android:layout_width="300dp"
-        android:layout_height="178dp"
+        android:layout_width="301dp"
+        android:layout_height="197dp"
         android:text="Descripción"
         android:textAlignment="center"
         android:textSize="24sp"
@@ -57,7 +57,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.78" />
+        app:layout_constraintVertical_bias="0.843" />
 
     <Button
         android:id="@+id/cancelarCBtn"
@@ -66,9 +66,9 @@
         android:text="Cancelar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.868" />
+        app:layout_constraintVertical_bias="0.913" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
